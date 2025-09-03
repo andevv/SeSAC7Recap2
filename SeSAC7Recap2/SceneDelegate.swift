@@ -17,13 +17,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
         
-        if let token = UserDefaults.standard.string(forKey: "token") {
-            let rootViewController = UINavigationController(rootViewController: ProfileViewController())
-            window?.rootViewController = rootViewController
-        } else {
-            let rootViewController = UINavigationController(rootViewController: SignInViewController())
-            window?.rootViewController = rootViewController
-        }
+        let rootViewController = UINavigationController(rootViewController: ViewController())
+        window?.rootViewController = rootViewController
+        
+//        if let token = UserDefaults.standard.string(forKey: "token") {
+//            let rootViewController = UINavigationController(rootViewController: ProfileViewController())
+//            window?.rootViewController = rootViewController
+//        } else {
+//            let rootViewController = UINavigationController(rootViewController: SignInViewController())
+//            window?.rootViewController = rootViewController
+//        }
         window?.makeKeyAndVisible()
     }
 
