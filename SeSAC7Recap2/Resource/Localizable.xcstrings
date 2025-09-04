@@ -1,0 +1,30 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "navigation_title" : {
+      "comment" : "Localizable.strings\n  SeSAC7Recap2\n\n  Created by andev on 9/4/25.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My Recap"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "일본어 리캡"
+          }
+        },
+        "ko-KR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "나의 리캡"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,9 +1,7 @@
 /* 
-  Localizable.strings
+  InfoPlist.strings
   SeSAC7Recap2
 
   Created by andev on 9/4/25.
   
 */
-
-"navigation_title" = "My Recap";

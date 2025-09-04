@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  SeSAC7Recap2
+
+  Created by andev on 9/4/25.
+  
+*/
+
+NSCameraUsageDescription = "카메라 권한을 허용해주세요";
+CFBundleDisplayName = "카카오톡";

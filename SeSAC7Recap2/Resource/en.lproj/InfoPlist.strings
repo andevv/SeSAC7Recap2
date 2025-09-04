@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  SeSAC7Recap2
+
+  Created by andev on 9/4/25.
+  
+*/
+
+NSCameraUsageDescription = "camera";
+CFBundleDisplayName = "Kakao";

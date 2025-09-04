@@ -1,0 +1,54 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ZaK-54-337.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"호호호\"; ObjectID = \"ZaK-54-337\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "호호호"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "호호호"
+          }
+        },
+        "ko-KR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "호호호"
+          }
+        }
+      }
+    },
+    "ZaK-54-337.text" : {
+      "comment" : "Class = \"UITextField\"; text = \"후후후\"; ObjectID = \"ZaK-54-337\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "후후후"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "후후후"
+          }
+        },
+        "ko-KR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "후후후"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
