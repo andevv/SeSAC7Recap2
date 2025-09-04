@@ -32,6 +32,8 @@ class ViewController: UIViewController {
         
         signUpButton.addTarget(self, action: #selector(calendarButtonClicked), for: .touchUpInside)
         signInButton.addTarget(self, action: #selector(timeButtonClicked), for: .touchUpInside)
+        
+        navigationItem.title = NSLocalizedString("navigation_title", comment: "")
     }
     
     @objc func timeButtonClicked() {
