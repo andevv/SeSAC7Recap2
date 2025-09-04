@@ -18,6 +18,10 @@
 
 import UIKit
 
+enum MyString: String {
+    case navTitle = "navigation_title"
+}
+
 class ViewController: UIViewController {
     
     let emailTextField = SignTextField(placeholderText: "로컬알림 타이틀")
@@ -33,7 +37,7 @@ class ViewController: UIViewController {
         signUpButton.addTarget(self, action: #selector(calendarButtonClicked), for: .touchUpInside)
         signInButton.addTarget(self, action: #selector(timeButtonClicked), for: .touchUpInside)
         
-        navigationItem.title = NSLocalizedString("navigation_title", comment: "")
+        navigationItem.title = MyString.navTitle.rawValue.localized
     }
     
     @objc func timeButtonClicked() {
